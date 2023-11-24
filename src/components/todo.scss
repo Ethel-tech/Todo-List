@@ -1,0 +1,25 @@
+.todo-list-div{
+  margin-top: 20px;
+  border: 2px solid blue;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.item-list{
+  border: 2px solid peru;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: disc;
+}
+
+.todo-date{
+  font-style: italic;
+  opacity: 0.5;
+}
+
+.todo-delete-button{
+  background-color: red;
+}
+
